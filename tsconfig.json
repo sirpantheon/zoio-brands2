@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/menu/index.tsx", "src/components/menu/index.tsx", "src/components/header/index.tsx"  ],
   "exclude": [
     "node_modules"
   ]
