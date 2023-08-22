@@ -5,9 +5,7 @@
   height: 308px
   justify-content: center
   align-items: center
-  border-bottom: solid 0.1rem #fff
-
-
+  
 .header
   display: flex
   flex-direction: row
@@ -15,7 +13,6 @@
   align-items: center
   justify-content: space-between
 
-  
 .menu
   display: flex
   button
@@ -26,3 +23,25 @@
     font-weight: 700
     text-decoration: none
     text-transform: uppercase
+
+.menuBurger
+  display: none
+
+@media (max-width: 900px)
+  .menu
+    display: none
+  
+  .menuBurger
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .burger
+    color: #FFF
+
+  .menuItems
+    display: flex
+    justify-content: center
+    align-items: center
+
+

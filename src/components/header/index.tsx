@@ -2,8 +2,12 @@ import Image from 'next/image'
 import LogoGif from '../../../public/logo.gif'
 import styles from './header.module.sass'
 import Link from 'next/link';
+import * as React from 'react';
+import MenuBurger from '../menu/index'
+
 
 export default function Header() {
+
   return (
     <header className={styles.container}>
       <div className={styles.header}>
@@ -18,6 +22,9 @@ export default function Header() {
           <button><Link href={"/projetos"}>Projetos</Link></button>
           <button><Link href={"/contato"}>Contato</Link></button>
         </div>
+
+        <MenuBurger />
+
 
       </div>
     </header>
