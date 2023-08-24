@@ -23,7 +23,10 @@ export default function Header() {
           <button><Link href={"/contato"}>Contato</Link></button>
         </div>
 
+        <div className={styles.menuBurger}>
+
         <MenuBurger />
+        </div>
 
 
       </div>
