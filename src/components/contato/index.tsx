@@ -5,7 +5,7 @@ export default function Contato() {
     <section className={styles.container}>
       <div className={styles.content}>
 
-        <h2>Entre em contato conosco</h2>
+        <h2 className={styles.h2}>Entre em contato conosco</h2>
 
         <form>
           <label>Nome</label>
