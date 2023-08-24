@@ -9,6 +9,7 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import Link from 'next/link';
 import MenuIcon from '@mui/icons-material/Menu';
+import styles from './menu.module.sass'
 
 export default function MenuBurger() {
   const [open, setOpen] = React.useState(false);
@@ -60,7 +61,9 @@ export default function MenuBurger() {
           aria-haspopup="true"
           onClick={handleToggle}
         >
-          <MenuIcon />
+          <div className={styles.Icon}>
+            <MenuIcon />
+          </div>
         </Button>
         <Popper
           open={open}
