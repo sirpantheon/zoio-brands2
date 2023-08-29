@@ -52,7 +52,7 @@ export default function MenuBurger() {
   return (
     <Stack direction="row" spacing={2}>
 
-      <div>
+      <div className={styles.Menu}>
         <Button
           ref={anchorRef}
           id="composition-button"
