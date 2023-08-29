@@ -1,4 +1,4 @@
-import SobreComponent from "../../components/sobre"
+import SobreComponent from "../../components/sobreEmpresa"
 
 export default function Sobre() {
   return (

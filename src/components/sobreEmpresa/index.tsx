@@ -10,7 +10,9 @@ export default function SobreEmpresa() {
         <div className={styles.paragrafo}>
 
           <div className={styles.title}>
-            <span >Sobre a </span><span className={styles.zoio}>Zoio</span>
+            <div>
+              <span>Sobre a </span><span className={styles.zoio}> Zoio</span>
+            </div>
           </div>
 
           <span className={styles.texto}>A Zoio é um estúdio de design, focado em identidade visual. Nossa abordagem está em desvendar novas perspectivas e estimular uma reavaliação fundamental de como as marcas interagem com o mundo.</span>
@@ -24,7 +26,7 @@ export default function SobreEmpresa() {
         </div>
 
         <div className={styles.logo}>
-          <Image src={LogoGif} height={600} width={600} alt={"logo"} />
+          <Image src={LogoGif} quality={75} layout="responsive" objectFit="cover" alt={"logo"} />
         </div>
 
       </div>
