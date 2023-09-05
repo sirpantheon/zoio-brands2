@@ -18,7 +18,6 @@ export default function Home() {
       <main className={styles.main}>
         <Banner />
         <ProjetoSelect />
-
         <SobreEmpresa />
         <Contato />
 

@@ -17,6 +17,11 @@ a {
   padding: 0;
   box-sizing: border-box;
   transition: all .2s ease;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+
 }
 
 Html{
