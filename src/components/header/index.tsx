@@ -13,7 +13,7 @@ export default function Header() {
       <div className={styles.header}>
 
         <div className={styles.logo}>
-          <Image src={LogoGif} layout='responsive'  objectFit="contain" alt={"logo"} />
+          <Image src={LogoGif} alt={"logo"} className={styles.Image} />
         </div>
 
         <div className={styles.menu}>
