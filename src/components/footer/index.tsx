@@ -10,9 +10,10 @@ export default function Footer() {
       <div className={styles.container}>
 
         <h3>Zoio Design studio - 2023 © Todos os direitos reservados.</h3>
+        
         <Image src={LogoGif} alt='Logo' height={193} />
-        <div className={styles.svg}>
 
+        <div className={styles.svg}>
           <AiOutlineInstagram />
         </div>
       </div>
