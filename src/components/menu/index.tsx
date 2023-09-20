@@ -89,7 +89,7 @@ export default function MenuBurger() {
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
-                    <MenuItem onClick={handleClose}><Link href={"/"}>Inicio</Link></MenuItem>
+                    <MenuItem onClick={handleClose}><Link href={"/"} className='decoration-transparent'>Inicio</Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link href={"/sobre"}>Sobre</Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link href={"/projetos"}>Projetos</Link></MenuItem>
                     <MenuItem onClick={handleClose}><Link href={"/contato"}>Contato</Link></MenuItem>
