@@ -26,7 +26,7 @@ export default function SobreEmpresa() {
         </div>
 
         <div className={styles.logo}>
-          <Image src={LogoGif} layout="responsive" objectFit="contain" alt={"logo"}  />
+          <Image src={LogoGif} className={styles.Image} alt={"logo"}  />
         </div>
 
       </div>
